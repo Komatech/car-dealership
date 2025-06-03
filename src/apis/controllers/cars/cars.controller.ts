@@ -3,7 +3,6 @@ import { MIDDLEWARE_TOKENS, SERVICE_TOKENS } from "@app/container/tokens";
 import { CarService } from "@app/modules/cars/cars.service";
 import { inject } from "inversify";
 import { controller, httpDelete, httpGet, httpPost, httpPut, queryParam, request, requestBody, requestParam, response } from "inversify-express-utils";
-import { PaginationDto } from "@app/apis/dto/pagination";
 import { validationPipe } from "@app/apis/middlewares/validation.middleware";
 import { IdDto } from "@app/apis/dto/id.dto";
 import { Response } from 'express';
